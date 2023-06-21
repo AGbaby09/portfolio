@@ -21,6 +21,16 @@ const Portfolio = () => {
             <div id='portPhoto'>
                 <img src={Photo} alt=''/>
             </div>
+
+            <div id='contacts'>
+                <ul>
+                    <li> <i className='bx bxl-gmail' ></i> <a href='#'>agbotsem@gmail.com</a></li>
+                    <li> <i className='bx bxl-whatsapp' ></i> <p>+233 59 601 6100</p></li>
+                    <li> <i className='bx bxl-twitter' ></i> <a href='#'>zero4Mday</a></li>
+                    <li> <i className='bx bxl-github' ></i> <a href='#'>AGbaby09</a></li>
+                    {/* <li> <i className='bx bxl-dial' ></i><p></p></li> */}
+                </ul>
+            </div>
         </main>
     );
 }

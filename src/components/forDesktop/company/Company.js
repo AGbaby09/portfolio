@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                 </div>
                 <div id='foot'>
-                    <button>View Portfolio</button>
+                    <button>Learn more about us</button>
                 </div>
             </section>
         </main>
