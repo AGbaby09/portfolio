@@ -1,9 +1,8 @@
 import './App.css';
-import About from './components/forDesktop/company/Company';
-import Portfolio from './components/forDesktop/port/Portfolio';
+import About from './components/forDesktop/company/Company.js';
+import Portfolio from './components/forDesktop/port/Portfolio.js';
 import Landing from 'C:/Users/HP/Desktop/react/portfolio-project/portfolio/src/components/forDesktop/about/Landing.js';
 import Thanks from 'C:/Users/HP/Desktop/react/portfolio-project/portfolio/src/components/forDesktop/thanks/Thanks.js';
-import Contact from 'C:/Users/HP/Desktop/react/portfolio-project/portfolio/src/components/forDesktop/contact/Contact.js';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <About />
       <Portfolio />
       <Thanks />
-      <Contact />
     </div>
   );
 }
